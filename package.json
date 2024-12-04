@@ -1,18 +1,27 @@
 {
-  "name": "node-forge",
-  "version": "1.3.2-0",
+  "name": "@luckxudong/node-forge",
+  "version": "1.3.4",
   "description": "JavaScript implementations of network transports, cryptography, ciphers, PKI, message digests, and various utilities.",
   "homepage": "https://github.com/digitalbazaar/forge",
-  "author": {
-    "name": "Digital Bazaar, Inc.",
-    "email": "support@digitalbazaar.com",
-    "url": "http://digitalbazaar.com/"
-  },
+  "author": "Digital Bazaar, Inc. <support@digitalbazaar.com> (http://digitalbazaar.com/)",
+  "types": "dist/forge.all.js",
   "contributors": [
-    "Dave Longley <dlongley@digitalbazaar.com>",
-    "David I. Lehn <dlehn@digitalbazaar.com>",
-    "Stefan Siegl <stesie@brokenpipe.de>",
-    "Christoph Dorn <christoph@christophdorn.com>"
+    {
+      "name": "Dave Longley",
+      "email": "dlongley@digitalbazaar.com"
+    },
+    {
+      "name": "David I. Lehn",
+      "email": "dlehn@digitalbazaar.com"
+    },
+    {
+      "name": "Stefan Siegl",
+      "email": "stesie@brokenpipe.de"
+    },
+    {
+      "name": "Christoph Dorn",
+      "email": "christoph@christophdorn.com"
+    }
   ],
   "devDependencies": {
     "browserify": "^16.5.2",
@@ -45,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/forge"
+    "url": "git+https://github.com/digitalbazaar/forge.git"
   },
   "bugs": {
     "url": "https://github.com/digitalbazaar/forge/issues",
